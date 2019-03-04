@@ -14,9 +14,6 @@ import org.springframework.web.client.RestTemplate;
 
 @RestController
 public class DcController {
-
-    @Autowired
-    DiscoveryClient discoveryClient;
     @Autowired
     LoadBalancerClient loadBalancerClient;
     @Autowired
